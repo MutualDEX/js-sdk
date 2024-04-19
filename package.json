@@ -3,8 +3,6 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --concurrency=19",
-    "dev": "node ./server.js",
-    "start": "cross-env NODE_ENV=production node ./server.js",
     "react": "pnpm --filter @orderly.network/react dev",
     "react:watch": "pnpm --filter @orderly.network/react watch",
     "example": "pnpm --filter @orderly.network/examples dev",
